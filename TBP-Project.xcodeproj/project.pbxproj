@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02007FDC2A2D94E600C76367 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 02007FDA2A2D94E600C76367 /* level2.txt */; };
+		02007FDD2A2D94E600C76367 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 02007FDB2A2D94E600C76367 /* level1.txt */; };
 		022471732A1AB55200F2A0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022471722A1AB55200F2A0B2 /* AppDelegate.swift */; };
 		022471752A1AB55200F2A0B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022471742A1AB55200F2A0B2 /* SceneDelegate.swift */; };
 		022471772A1AB55200F2A0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022471762A1AB55200F2A0B2 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02007FDA2A2D94E600C76367 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = SOURCE_ROOT; };
+		02007FDB2A2D94E600C76367 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = SOURCE_ROOT; };
 		0224716F2A1AB55200F2A0B2 /* TBP-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TBP-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		022471722A1AB55200F2A0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		022471742A1AB55200F2A0B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				022471782A1AB55200F2A0B2 /* Main.storyboard */,
 				0224717B2A1AB55400F2A0B2 /* Assets.xcassets */,
 				0224717D2A1AB55400F2A0B2 /* LaunchScreen.storyboard */,
+				02007FDB2A2D94E600C76367 /* level1.txt */,
+				02007FDA2A2D94E600C76367 /* level2.txt */,
 				022471802A1AB55400F2A0B2 /* Info.plist */,
 			);
 			path = "TBP-Project";
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02007FDD2A2D94E600C76367 /* level1.txt in Resources */,
 				0224717F2A1AB55400F2A0B2 /* LaunchScreen.storyboard in Resources */,
 				0224717C2A1AB55400F2A0B2 /* Assets.xcassets in Resources */,
+				02007FDC2A2D94E600C76367 /* level2.txt in Resources */,
 				0224717A2A1AB55200F2A0B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
